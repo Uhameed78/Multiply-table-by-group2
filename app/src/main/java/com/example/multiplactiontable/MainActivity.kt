@@ -22,6 +22,9 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             // create the explicit intent
             val intent = Intent(this, Tabledisplay::class.java)
+          // added the table number to the intent
+            intent.putExtra("tableNumber", editText.text.toString())
+
             // start the activity
             startActivity(intent)
         }

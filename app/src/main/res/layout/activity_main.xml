@@ -9,16 +9,18 @@
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="130dp"
-        android:layout_height="34dp"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:foregroundTint="#673AB7"
         android:text="Multiplication Table"
+        android:textColor="#0CFD00"
         app:layout_constraintBottom_toTopOf="@+id/txtNum"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597"
-        tools:ignore="HardcodedText,TextSizeCheck" />
+        app:layout_constraintVertical_bias="0.617"
+        tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/txtNum"
@@ -28,21 +30,24 @@
         android:layout_marginEnd="101dp"
         android:layout_marginBottom="108dp"
         android:ems="10"
+        android:fontFamily="@font/bungee_shade"
+        android:hint="Enter number"
         android:inputType="number"
-        android:text="Enter number"
         app:layout_constraintBottom_toTopOf="@+id/multBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck" />
+        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/multBtn"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="162dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="218dp"
+        android:fontFamily="@font/bungee_shade"
         android:text="Multiply"
+        android:textColor="#F6F2F2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

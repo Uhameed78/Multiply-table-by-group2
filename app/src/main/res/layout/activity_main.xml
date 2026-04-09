@@ -11,6 +11,7 @@
         android:id="@+id/title"
         android:layout_width="200dp"
         android:layout_height="58dp"
+        android:fontFamily="@font/bungee_shade"
         android:foregroundTint="#673AB7"
         android:text="Multiplication Table"
         android:textColor="#0CFD00"

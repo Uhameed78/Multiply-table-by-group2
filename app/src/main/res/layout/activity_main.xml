@@ -17,13 +17,14 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.376"
+        app:layout_constraintVertical_bias="0.597"
         tools:ignore="HardcodedText,TextSizeCheck" />
 
     <EditText
         android:id="@+id/txtNum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
         android:layout_marginEnd="101dp"
         android:layout_marginBottom="108dp"
         android:ems="10"
@@ -31,15 +32,20 @@
         android:text="Enter number"
         app:layout_constraintBottom_toTopOf="@+id/multBtn"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/multBtn"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="218dp"
         android:text="Multiply"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="411dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="HardcodedText,MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
